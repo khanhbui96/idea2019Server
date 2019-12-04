@@ -7,7 +7,6 @@ module.exports.create = async (req, res)=>{
         if(number){
             errs.number = 'Số giấy phép đã được đăng kí'
         };
-        console.log(errs)
         if(Object.keys(errs).length){
             res.status(404).json(errs)
         }else{
