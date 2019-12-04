@@ -6,6 +6,9 @@ const driverSchema = new Schema({
     level: {
         type: String
     },
+    academic: {
+        type: String
+    },
     name: {
         type: String
     },
