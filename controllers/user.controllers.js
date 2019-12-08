@@ -48,6 +48,7 @@ module.exports.login = async (req, res)=>{
             res.json({
                 success: true,
                 token: token,
+                login: user.login,
                 type: user.type
             })
           })
